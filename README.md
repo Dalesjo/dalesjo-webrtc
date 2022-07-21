@@ -7,6 +7,7 @@ WebRTCAuthentication is based on documentation in [Control access to WebRTC publ
 With the default configuration below, only users who includes a valid Token  in their userdata, will be able to connect using webrtc. The user will only be able to publish a stream with the same name as the subject in their token.
 
 ### Installation
+Copy dalesjo-webrtc.jar to your lib directory.
 
 In vhost.xml replace the HTTP Provider 
 com.wowza.wms.webrtc.http.HTTPWebRTCExchangeSessionInfo with WebRTCAuthentication
