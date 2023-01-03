@@ -53,7 +53,7 @@ In your application.xml add the following 3 properties.
 
 Below are two slightly modified examples from [Wowza Media Systems WebRTC client examples](https://github.com/WowzaMediaSystems/webrtc-examples) you can use them to connect to your wowza server after you configured the plugin
 
-https://dalesjo.com/examples/webrtc/broadcast.html
+https://dalesjo.com/examples/webrtc/broadcast.html  
 https://dalesjo.com/examples/webrtc/play.html
 
 Source code for the modified client page can be found [here](https://github.com/Dalesjo/webrtc-example)
