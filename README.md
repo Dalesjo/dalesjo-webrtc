@@ -47,6 +47,21 @@ In your application.xml add the following 3 properties.
 |dalesjo-webrtc-parameter | This is the key used to send the token in your userdata|
 |dalesjo-webrtc-secret | This is the secret you use to generate and validate your created tokens.|
 
+# Example
+
+## Testpages
+
+Below are two slightly modified examples from [Wowza Media Systems WebRTC client examples](https://github.com/WowzaMediaSystems/webrtc-examples) you can use them to connect to your wowza server after you configured the plugin
+
+https://dalesjo.com/examples/webrtc/broadcast.html
+https://dalesjo.com/examples/webrtc/play.html
+
+Source code for the modified client page can be found [here](https://github.com/Dalesjo/webrtc-example)
+
+## Token
+You can use [jwt.io](https://jwt.io/) to generate your first test token. Below i have generated a token which only will be allowed to publish an stream called mystream and it will only be able to do so until it expires. the token secret is mysecret.
+
+![Image showing how to configure JDK/JRE in Eclipse](./documentation/jwt.png)
 
 # Other Info
 
